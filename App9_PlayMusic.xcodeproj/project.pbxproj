@@ -12,6 +12,12 @@
 		637D85BD1BE618E200A4BA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637D85BB1BE618E200A4BA07 /* Main.storyboard */; };
 		637D85BF1BE618E200A4BA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637D85BE1BE618E200A4BA07 /* Assets.xcassets */; };
 		637D85C21BE618E200A4BA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637D85C01BE618E200A4BA07 /* LaunchScreen.storyboard */; };
+		637D85CA1BE61B6E00A4BA07 /* side_A_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 637D85C91BE61B6E00A4BA07 /* side_A_64kb.mp3 */; settings = {ASSET_TAGS = (); }; };
+		637D85CD1BE61C8900A4BA07 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637D85CC1BE61C8900A4BA07 /* play@2x.png */; settings = {ASSET_TAGS = (); }; };
+		637D85CF1BE61D3C00A4BA07 /* Pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 637D85CE1BE61D3C00A4BA07 /* Pause@2x.png */; settings = {ASSET_TAGS = (); }; };
+		637D85D11BE62A5600A4BA07 /* 02 Soñe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 637D85D01BE62A5600A4BA07 /* 02 Soñe.mp3 */; settings = {ASSET_TAGS = (); }; };
+		637D85D31BE62DB300A4BA07 /* 09 I Appear Missing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 637D85D21BE62DB300A4BA07 /* 09 I Appear Missing.mp3 */; settings = {ASSET_TAGS = (); }; };
+		637D85D51BE62E3100A4BA07 /* Queens-Of-the-Stone-Age-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 637D85D41BE62E3100A4BA07 /* Queens-Of-the-Stone-Age-1.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		637D85BE1BE618E200A4BA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637D85C11BE618E200A4BA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		637D85C31BE618E200A4BA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637D85C91BE61B6E00A4BA07 /* side_A_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = side_A_64kb.mp3; sourceTree = "<group>"; };
+		637D85CC1BE61C8900A4BA07 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		637D85CE1BE61D3C00A4BA07 /* Pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause@2x.png"; sourceTree = "<group>"; };
+		637D85D01BE62A5600A4BA07 /* 02 Soñe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Soñe.mp3"; sourceTree = "<group>"; };
+		637D85D21BE62DB300A4BA07 /* 09 I Appear Missing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 I Appear Missing.mp3"; sourceTree = "<group>"; };
+		637D85D41BE62E3100A4BA07 /* Queens-Of-the-Stone-Age-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Queens-Of-the-Stone-Age-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		637D85B61BE618E100A4BA07 /* App9_PlayMusic */ = {
 			isa = PBXGroup;
 			children = (
+				637D85D61BE62E3600A4BA07 /* IMAGES */,
+				637D85CB1BE61B7200A4BA07 /* MUSIC */,
 				637D85B71BE618E100A4BA07 /* AppDelegate.swift */,
 				637D85B91BE618E100A4BA07 /* ViewController.swift */,
 				637D85BB1BE618E200A4BA07 /* Main.storyboard */,
@@ -62,6 +76,26 @@
 				637D85C31BE618E200A4BA07 /* Info.plist */,
 			);
 			path = App9_PlayMusic;
+			sourceTree = "<group>";
+		};
+		637D85CB1BE61B7200A4BA07 /* MUSIC */ = {
+			isa = PBXGroup;
+			children = (
+				637D85D01BE62A5600A4BA07 /* 02 Soñe.mp3 */,
+				637D85C91BE61B6E00A4BA07 /* side_A_64kb.mp3 */,
+				637D85D21BE62DB300A4BA07 /* 09 I Appear Missing.mp3 */,
+			);
+			name = MUSIC;
+			sourceTree = "<group>";
+		};
+		637D85D61BE62E3600A4BA07 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				637D85CC1BE61C8900A4BA07 /* play@2x.png */,
+				637D85CE1BE61D3C00A4BA07 /* Pause@2x.png */,
+				637D85D41BE62E3100A4BA07 /* Queens-Of-the-Stone-Age-1.jpg */,
+			);
+			name = IMAGES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +155,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637D85D51BE62E3100A4BA07 /* Queens-Of-the-Stone-Age-1.jpg in Resources */,
+				637D85CD1BE61C8900A4BA07 /* play@2x.png in Resources */,
+				637D85CA1BE61B6E00A4BA07 /* side_A_64kb.mp3 in Resources */,
+				637D85D31BE62DB300A4BA07 /* 09 I Appear Missing.mp3 in Resources */,
 				637D85C21BE618E200A4BA07 /* LaunchScreen.storyboard in Resources */,
+				637D85CF1BE61D3C00A4BA07 /* Pause@2x.png in Resources */,
 				637D85BF1BE618E200A4BA07 /* Assets.xcassets in Resources */,
 				637D85BD1BE618E200A4BA07 /* Main.storyboard in Resources */,
+				637D85D11BE62A5600A4BA07 /* 02 Soñe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
